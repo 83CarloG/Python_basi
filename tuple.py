@@ -44,7 +44,6 @@ print(len(tuple_example5))
 #8
 numeri = (1,2,3,4,5)
 print(numeri)
-9
 #9
 numeri_quadrato = tuple(numero**2 for numero in numeri)
 print(numeri_quadrato)

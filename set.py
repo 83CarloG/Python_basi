@@ -19,7 +19,7 @@
 set_example = set(())
 print(set_example)
 #2
-frutti =  {"mela", "banana", "kiwi", "mela"}
+frutti =  {"mela", "banana", "kiwi"}
 print(frutti,type(frutti))
 #3
 frutti.add("pesca")
