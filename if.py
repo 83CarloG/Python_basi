@@ -17,56 +17,56 @@
 # Esercizio 9 (difficile)
 # Scrivere un programma che chieda all'utente di inserire tre numeri interi. Il programma deve verificare se i tre numeri formano un triangolo rettangolo. Se i tre numeri formano un triangolo rettangolo, stampare "I tre numeri formano un triangolo rettangolo". Altrimenti, stampare "I tre numeri non formano un triangolo rettangolo".
 
-#1
-# test = input("inserisci un numero: ")
-# if (int(test) >= 0):
-#     print("Numero positivo")
-# else:
-#     print("Numero negativo")
-# #2
-# numero1 = input("Inserisci un numero: ")
-# numero2 = input("Inserisci un altro numero: ")
+1
+test = input("inserisci un numero: ")
+if (int(test) >= 0):
+    print("Numero positivo")
+else:
+    print("Numero negativo")
+#2
+numero1 = input("Inserisci un numero: ")
+numero2 = input("Inserisci un altro numero: ")
 
-# if numero1>numero2:
-#     print("Il primo numero è maggiore")
-# elif numero2>numero1:
-#     print("Il secondo numero è maggiore")
-# else:
-#     print("I numeri sono uguali")
-# #3
-# str_test = input("Inserire una stringa: ")
-# if len(str_test)<1:
-#     print("La stringa è vuota")
-# else:
-#     print("la stringa non è vuota")
-# #4
-# numero_test = input("Inserisci un numero: ")
-# test_pari_dispari =   numero_test + " è un numero pari" if int(numero_test)%2 == 0 else numero_test + " è un numero dispari"
-# print(test_pari_dispari)
-# #5
-# str_word = input("Inserisci una lettera: ")
-# test_vocale = "è una vocale" if str_word in "aeiou" else "è una consonante"
-# print(test_vocale)
-# #6
-# numero_test_maggiore_10 = int(input("Inserisci un numero: "))
-# test_maggiore_10 = "Il numero è compreso tra 1 e 10" if 1 <= numero_test_maggiore_10 <= 10 else "Il numero non è compreso tra 1 e 10"
-# print(test_maggiore_10)
-# #7
-# numero_test2 = int(input("Inserisci un numero: "))
-# if numero_test2 > 10:
-#     print("Il numero è maggiore di 10")
-# elif numero_test2<10:
-#     print("Il numero è minore di 10")
-# else:
-#     print("Il numero è uguale di 10")
-# #8
-# carattere = input("Inserisci un carattere: ")
-# if not carattere.isalpha() :
-#     print("Il carattere inserito non è una lettera")
-# elif carattere in "aeiou":
-#     print("Il carattere è una vocale")
-# else:
-#     print("Il carattere è una conosnante")
+if numero1>numero2:
+    print("Il primo numero è maggiore")
+elif numero2>numero1:
+    print("Il secondo numero è maggiore")
+else:
+    print("I numeri sono uguali")
+#3
+str_test = input("Inserire una stringa: ")
+if len(str_test)<1:
+    print("La stringa è vuota")
+else:
+    print("la stringa non è vuota")
+#4
+numero_test = input("Inserisci un numero: ")
+test_pari_dispari =   numero_test + " è un numero pari" if int(numero_test)%2 == 0 else numero_test + " è un numero dispari"
+print(test_pari_dispari)
+#5
+str_word = input("Inserisci una lettera: ")
+test_vocale = "è una vocale" if str_word in "aeiou" else "è una consonante"
+print(test_vocale)
+#6
+numero_test_maggiore_10 = int(input("Inserisci un numero: "))
+test_maggiore_10 = "Il numero è compreso tra 1 e 10" if 1 <= numero_test_maggiore_10 <= 10 else "Il numero non è compreso tra 1 e 10"
+print(test_maggiore_10)
+#7
+numero_test2 = int(input("Inserisci un numero: "))
+if numero_test2 > 10:
+    print("Il numero è maggiore di 10")
+elif numero_test2<10:
+    print("Il numero è minore di 10")
+else:
+    print("Il numero è uguale di 10")
+#8
+carattere = input("Inserisci un carattere: ")
+if not carattere.isalpha() :
+    print("Il carattere inserito non è una lettera")
+elif carattere in "aeiou":
+    print("Il carattere è una vocale")
+else:
+    print("Il carattere è una conosnante")
 #9
 numero_1 = int(input("Inserisci un numero (1): "))
 numero_2 = int(input("Inserisci un numero (2): "))
