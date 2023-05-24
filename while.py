@@ -17,7 +17,7 @@
 # Esercizio 9
 # Chiedere all'utente di inserire una stringa. Stampare solo le consonanti della stringa usando un loop while.
 
-1
+#1
 i=1
 while i<11:
     print(i)
@@ -33,13 +33,13 @@ print(somma)
 #3
 i = 2
 while i<=11:
-     print(i)
-     i += 2
+    print(i)
+    i += 2
 #4
 randomNumber = 5
 tryNumber = int(input("inserisci un numero "))
 while tryNumber != randomNumber:
-        tryNumber = int(input("inserisci un numero "))
+    tryNumber = int(input("inserisci un numero "))
 
 print("bravo, indovinato!")
 #5
@@ -58,7 +58,7 @@ i = 10
 while i>0:
     print(i)
     i -= 1
-7
+#7
 n = int(input("Inserisci un valore per n: "))
 fact = 1
 i = 1
@@ -66,20 +66,20 @@ while i <= n:
     fact *= i
     i += 1
 print("Il fattoriale di", n, "è", fact)
-8
+#8
 num_list = []
 len_list = int(input("Quanti numeri vuoi inserire? "))
 i = 0
 while i < len_list:
-         newNumber = int(input("inserisci un numero: "))
-         num_list.append(newNumber)
-         i += 1
+    newNumber = int(input("inserisci un numero: "))
+    num_list.append(newNumber)
+    i += 1
 somma = 0
 
 for numero in num_list:
     somma += numero
 print(somma)
-9
+#9
 word_example = input("inserisci una stringa: ")
 i=0
 
