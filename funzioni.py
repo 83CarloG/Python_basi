@@ -19,7 +19,7 @@
 # Esercizio 10
 # Scrivi una funzione che prende una lista di numeri e restituisce una lista contenente solo i numeri maggiori di un valore specificato.
 
-1
+#1
 list_number = [4,5,6,7,8,12]
 
 def somma_lista (lista):
@@ -29,7 +29,7 @@ def somma_lista (lista):
     return somma
 
 print(somma_lista(list_number))
-2
+#2
 
 def inverso_stringa(stringa):
     inversa = ''
@@ -41,7 +41,7 @@ def inverso_stringa(stringa):
 
 print(inverso_stringa("pippo"))
 
-3
+#3
 def stampa_parole(words, chr):
     new_list = []
     for word in words:
@@ -50,7 +50,8 @@ def stampa_parole(words, chr):
     return new_list
 
 print(stampa_parole(["ciao", "pippo"],"o"))
-4
+
+#4
 def numeri_pari(numeri):
     lista_numeri = []
     for numero in numeri:
@@ -60,7 +61,7 @@ def numeri_pari(numeri):
 
 print(numeri_pari([2,5,4,7,8,10,5]))
 
-5
+#5
 def lunghezza_parole(lista):
     lista_lunghezza_parole= []
     for parola in lista:
@@ -69,7 +70,7 @@ def lunghezza_parole(lista):
 
 print(lunghezza_parole(["ciao","due","carlogiuseppe"]))
 
-6
+#6
 def numero_piu_alto(numeri):
     massimo = numeri[0]
     for numero in numeri:
@@ -79,7 +80,7 @@ def numero_piu_alto(numeri):
 
 print(numero_piu_alto([2,5,4,7,8,10,5]))
 
-7
+#7
 def lunghezza_parole_max(lista):
     massimo = lista[0]
     for parola in lista:
@@ -89,7 +90,7 @@ def lunghezza_parole_max(lista):
 
 print(lunghezza_parole_max(["ciaoooooooooooo","e","ca"]))
 
-8
+#8
 def media_lista_numeri(lista):
     lunghezza_lista = len(lista)
     somma = 0
@@ -99,7 +100,7 @@ def media_lista_numeri(lista):
 
 print(media_lista_numeri([5,10]))
 
-9
+#9
 def lista_palindrome(lista):
     parola_palindroma = str()
     lista_parole_palindrome = []
@@ -123,8 +124,8 @@ def lista_palindrome2(lista):
 print(lista_palindrome2 (['cane','osso','anna']))
 
 print(lista_palindrome (['cane','osso','anna']))
-10
 
+#10
 def trova_il_maggiore(lista, n):
     lista_numeri = []
     for numero in lista:
